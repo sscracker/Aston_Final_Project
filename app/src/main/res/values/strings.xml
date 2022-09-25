@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">RickAndMortyProject</string>
+    <string name="characters">Characters</string>
+    <string name="episodes">Episodes</string>
+    <string name="episode">Episode</string>
+    <string name="locations">Locations</string>
+    <string name="character_image_description">Character image</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="status">Status</string>
+    <string name="alive" translatable="false">Alive</string>
+    <string name="dead" translatable="false">Dead</string>
+    <string name="unknown" translatable="false">unknown</string>
+    <string name="species">Species</string>
+    <string name="human" translatable="false">Human</string>
+    <string name="alien" translatable="false">Alien</string>
+    <string name="humanoid" translatable="false">Humanoid</string>
+    <string name="mythological_creature" translatable="false">Mythological Creature</string>
+    <string name="animal" translatable="false">Animal</string>
+    <string name="robot" translatable="false">Robot</string>
+    <string name="disease" translatable="false">Disease</string>
+    <string name="gender">Gender</string>
+    <string name="male" translatable="false">Male</string>
+    <string name="female" translatable="false">Female</string>
+    <string name="genderless" translatable="false">Genderless</string>
+    <string name="nothing_was_found">Nothing was found</string>
+    <string name="episodes_filter_edit_text_hint">Episode code</string>
+    <string name="type">Type</string>
+    <string name="dimension">Dimension</string>
+    <string name="origin">Origin</string>
+    <string name="location">Location</string>
+    <string name="air_date">Air date</string>
+    <string name="residents">Residents</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

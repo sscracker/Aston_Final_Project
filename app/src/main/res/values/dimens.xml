@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">8dp</dimen>
+    <dimen name="margin_and_padding">2dp</dimen>
+    <dimen name="space_or_padding">8dp</dimen>
+
+</resources>
