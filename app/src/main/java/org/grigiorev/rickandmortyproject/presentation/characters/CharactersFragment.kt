@@ -3,16 +3,13 @@ package org.grigiorev.rickandmortyproject.presentation.characters
 import android.os.Bundle
 import android.view.*
 import androidx.appcompat.widget.SearchView
-import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.google.android.material.chip.Chip
 import org.grigiorev.rickandmortyproject.R
 import org.grigiorev.rickandmortyproject.databinding.FragmentCharactersBinding
-import org.grigiorev.rickandmortyproject.domain.entities.character.CharacterState
 import org.grigiorev.rickandmortyproject.domain.utils.IdEntity
 
 class CharactersFragment : Fragment(R.layout.fragment_characters) {

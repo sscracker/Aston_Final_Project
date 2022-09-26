@@ -14,9 +14,7 @@ interface EpisodesDetailsGenericViewModel {
 
         fun onViewCreated(id: Int)
         fun onRetryButtonPressed(id: Int)
-
         val adapter: CharactersAdapter
-
         val showLoadingIndicatorLiveData: LiveData<Boolean>
         val setErrorModeLiveData: LiveData<Boolean>
         val renderEpisodeEntityLiveData: LiveData<EpisodeEntity>

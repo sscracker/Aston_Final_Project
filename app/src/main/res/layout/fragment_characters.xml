@@ -54,9 +54,6 @@
             android:focusable="true"
             android:visibility="gone" />
 
-        <include
-            android:id="@+id/characters_filters"
-            layout="@layout/characters_filters" />
 
         <TextView
             android:id="@+id/characters_empty_response_text_view"

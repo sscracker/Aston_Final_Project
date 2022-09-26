@@ -54,9 +54,6 @@
             android:focusable="true"
             android:visibility="gone" />
 
-        <include
-            android:id="@+id/episodes_filters"
-            layout="@layout/episodes_filters" />
 
         <TextView
             android:id="@+id/episodes_empty_response_text_view"

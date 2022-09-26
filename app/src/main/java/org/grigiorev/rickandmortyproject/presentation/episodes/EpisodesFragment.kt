@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.*
 import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.widget.SearchView
-import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -32,19 +31,12 @@ class EpisodesFragment : Fragment(R.layout.fragment_episodes) {
     private fun initViews() {
         initRecyclerView()
         initRetryButton()
-        /*binding.episodesShadowFrameLayout.setOnClickListener { showOrHideFilterMenu() }
-        initFilterListener()*/
         binding.episodesRefreshLayout.setOnRefreshListener {
             viewModel.onRefresh()
             binding.episodesRefreshLayout.isRefreshing = false
         }
     }
 
-    /*private fun initFilterListener() {
-        binding.episodesFilters.episodesFilterEditText.addTextChangedListener {
-            viewModel.onFilterStateChange(binding.episodesFilters.episodesFilterEditText.text.toString())
-        }
-    }*/
 
     private fun initViewModel() {
         viewModel.showLoadingIndicatorLiveData.observe(viewLifecycleOwner) { showLoadingIndicator(it) }
@@ -110,21 +102,7 @@ class EpisodesFragment : Fragment(R.layout.fragment_episodes) {
             }
 
         })
-       /* menu.findItem(R.id.filters_menu).setOnMenuItemClickListener {
-            showOrHideFilterMenu()
-            true
-        }*/
     }
-
-    /*private fun showOrHideFilterMenu() {
-        val shadowIsVisible = binding.episodesShadowFrameLayout.isVisible
-        binding.episodesShadowFrameLayout.visibility =
-            if (shadowIsVisible) View.GONE else View.VISIBLE
-        val filtersAreVisible = binding.episodesFilters.episodesFiltersCardView.isVisible
-        binding.episodesFilters.episodesFiltersCardView.visibility =
-            if (filtersAreVisible) View.GONE else View.VISIBLE
-        hideKeyBoard()
-    }*/
 
     private fun hideKeyBoard() {
         val imm =

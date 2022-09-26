@@ -9,8 +9,6 @@ import org.grigiorev.rickandmortyproject.presentation.episodes.adapter.EpisodesA
 interface EpisodesGenericViewModel {
 
     interface ViewModel : GenericViewModel.ViewModel {
-
-
         val renderEpisodesListLiveData: LiveData<Page<EpisodeEntity>>
         val adapter: EpisodesAdapter
     }

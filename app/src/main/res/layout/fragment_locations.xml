@@ -54,10 +54,7 @@
             android:clickable="true"
             android:focusable="true"
             android:visibility="gone" />
-
-        <include
-            android:id="@+id/locations_filters"
-            layout="@layout/locations_filters" />
+        
 
         <TextView
             android:id="@+id/locations_empty_response_text_view"

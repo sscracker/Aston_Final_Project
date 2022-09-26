@@ -10,8 +10,6 @@ import org.grigiorev.rickandmortyproject.presentation.characters.adapter.Charact
 interface CharacterGenericViewModel {
 
     interface ViewModel : GenericViewModel.ViewModel {
-
-
         val renderCharactersListLiveData: LiveData<Page<CharacterEntity>>
         val adapter: CharactersAdapter
     }

@@ -9,12 +9,6 @@ import org.grigiorev.rickandmortyproject.presentation.locations.adapter.Location
 interface LocationsGenericViewModel{
 
     interface ViewModel : GenericViewModel.ViewModel {
-
-        /*fun onFiltersStateChange(
-            filterType: LocationState.Companion.FilterType,
-            filterName: String
-        )*/
-
         val renderLocationsListLiveData: LiveData<Page<LocationEntity>>
         val adapter: LocationsAdapter
     }
